@@ -1,0 +1,116 @@
+/* regole generali */
+
+body {
+  background-image: url("../img/bglegno.jpg");
+  background-size: cover;
+}
+
+hr {
+  margin-top: 1%;
+}
+
+header, section, footer {
+ height: auto;
+ margin: 10px 0;
+}
+
+input {
+  margin-left: 1%;
+}
+
+
+/* contenitore blocco di pagina */
+
+#container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* inizio comandi header  */
+
+#logo {
+  width: 150px;
+}
+
+#testologo {
+  font-size: 40px;
+  color: white;
+
+}
+
+/* fine comandi header */
+
+/* comandi ricerca mail */
+
+#unreadbox {
+  background-color:red;
+  border-radius: 50%;
+  padding: 1%;
+  color: white;
+}
+
+section > h2 {
+  color:white;
+}
+
+/* fine comandi ricerca mail */
+
+/* inizio comandi lista mail */
+
+.row-read {
+  background: lightgrey;
+  height: 15%;
+  border: 2px solid black;
+}
+
+.row-unread {
+  background: grey;
+  border: 2px solid black;
+}
+
+.unreadmail-object{
+  color:black;
+}
+.unreadmail-text{
+  color:black;
+}
+
+.readmail-object {
+  color:grey;
+}
+
+.readmail-text {
+  color:grey;
+}
+
+.row-left {
+   display:inline-block;
+   width: 30%;
+   color:black;
+}
+
+.row-right {
+  display:inline-block;
+  width: 69%;
+  color:black;
+}
+
+/* fine comandi lista mail  */
+
+/* inizio comandi footer  */
+
+
+#credits {
+  font-size: 40px;
+}
+
+#author {
+  font-size: 30px;
+}
+
+footer {
+  text-align: center;
+  color: white;
+}
+
+/* fine comandi footer  */
