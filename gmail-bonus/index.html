@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+     <head>
+
+        <meta charset="utf-8">
+
+        <title></title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+
+     </head>
+
+     <body>
+
+       <div id="container">
+
+        <div id="container-left">
+
+            <div class="vertical-menu">
+
+               <span>&#9993;</span><a href="#">Posta in arrivo</a>
+               <span>&#9993;</span><a href="#">Speciali</a>
+               <span>&#9993;</span><a href="#">Posta inviata</a>
+               <span>&#9993;</span><a href="#">Posta ricevuta</a>
+               <span>&#9993;</span><a href="#">Preferiti</a>
+               <span>&#9993;</span><a href="#">Cestino</a>
+               <span>&#9993;</span><a href="#">Posta in arrivo 2</a>
+               <span>&#9993;</span><a href="#">Speciali 2</a>
+               <span>&#9993;</span><a href="#">Posta inviata 2</a>
+               <span>&#9993;</span><a href="#">Preferiti 2</a>
+               <span>&#9993;</span><a href="#">Cestino 2</a>
+
+
+            </div>
+
+
+        </div>
+
+        <div id="containermiddle">
+
+        <!-- parte di intestazione page -->
+
+     <header>
+
+        <!-- logo e testo header -->
+
+             <img id="logo"src="img/logomail.png" alt="logomail">
+             <div id="testologo">Gmail</div>
+
+          <div class="mail-link">
+
+        <!-- immagine con link tutta la posta -->
+
+             <a href="#"><img src="img/tuttalaposta.png">
+             <br>
+             <span id="firsticon">Posta
+             </span>
+             </a>
+
+         </div>
+
+        <!-- immagine con link spam      -->
+
+         <div class="mail-spam">
+
+
+           <a href="#"><img src="img/spam.jpg">
+           <br>
+           <span id="secondicon">Spam
+           </span>
+           </a>
+
+        </div>
+
+         <!-- immagine con link spazzatura  -->
+
+        <div class="mail-trash">
+
+          <a href="#"><img src="img/basket.jpg">
+          <br>
+          <span id="thirdicon">Basket
+          </span>
+          </a>
+
+       </div>
+
+        <hr>
+
+        <!-- fine logo e testo header  -->
+
+      </header>
+
+        <!-- sezione ricerca mail  -->
+
+      <main>
+
+        <section>
+            <!-- search button -->
+
+               <input type="text" name="search" placeholder="Search">
+               <input type="submit" name="searchbutton" value="Vai">
+
+            <!-- bottone submit-->
+
+               <input id="submit" type="submit" value="Submit">
+
+
+            <div id="optionbutton">
+
+                 <select name="days">
+                   <option value="option1">30 days</option>
+                   <option value="option2">90 days</option>
+                   <option value="option3">180 days</option>
+                   <option value="option4">1 year</option>
+                 </select>
+
+            </div>
+
+              <h2>  You have  <span id="unreadbox">30</span>  unread Messages
+              </h2>
+
+              <hr>
+
+        <!-- fine sezione ricerca mail -->
+
+        </section>
+
+        <!-- sezione lista mail -->
+
+        <section>
+
+             <!-- inizio riga email letta  -->
+
+              <div class="row-read">
+
+              <!-- parte sinistra riga email letta  -->
+
+                 <div class="row-left">
+
+                   <input type="checkbox">
+
+                   <span>&#9733;</span>
+
+                   <span class = "readmail-object">
+
+                   <strong>Oggetto della email ( letta )<strong>
+
+                   </span>
+
+                 </div>
+
+             <!-- parte destra riga email letta  -->
+
+                 <div class="row-right">
+
+                     <span class="readmail-text"> - testo della mail...
+                     </span>
+
+                 </div>
+
+            <!-- fine riga email letta  -->
+
+             </div>
+
+           <!-- inizio riga email non letta -->
+
+             <div class="row-unread">
+
+           <!-- parte sinitra riga email non letta  -->
+
+               <div class="row-left">
+
+                  <input type="checkbox">
+
+                  <span>&#9733;</span>
+
+                  <span class = "unreadmail-object">
+                  <strong>Oggetto della email <strong>
+                  </span>
+
+               </div>
+
+          <!-- parte destra riga email non letta  -->
+
+               <div class="row-right">
+
+                 <span class="unreadmail-text"> - testo della mail...
+                 </span>
+
+              </div>
+
+             <!-- fine riga email non letta  -->
+
+              </div>
+
+                <div class="row-read">
+
+                <div class="row-left">
+
+                    <input type="checkbox">
+
+                    <span>&#9733;</span>
+
+                    <span class = "readmail-object">
+
+                     <strong>Oggetto della email ( letta )<strong>
+
+                   </span>
+
+               </div>
+
+            <div class="row-right">
+
+                <span class="readmail-text"> - testo della mail...</span>
+
+            </div>
+
+            </div>
+
+               <div class="row-unread">
+
+                <div class="row-left">
+
+                  <input type="checkbox">
+
+                  <span>&#9733;</span>
+
+                  <span class = "unreadmail-object">
+
+                     <strong>Oggetto della email <strong>
+
+                  </span>
+
+               </div>
+
+                <div class="row-right">
+
+                   <span class="unreadmail-text"> - testo della mail...
+                   </span>
+
+               </div>
+
+             </div>
+
+             <div class="row-read">
+
+               <div class="row-left">
+
+                <input type="checkbox">
+
+                <span>&#9733;</span>
+
+                <span class = "readmail-object">
+
+                  <strong>Oggetto della email ( letta )<strong>
+
+                </span>
+
+               </div>
+
+                <div class="row-right">
+
+                   <span class="readmail-text"> - testo della mail...</span>
+
+                </div>
+
+              </div>
+
+              <div class="row-read">
+
+                 <div class="row-left">
+
+                    <input type="checkbox">
+
+                    <span>&#9733;</span>
+
+                    <span class = "readmail-object">
+
+                     <strong>Oggetto della email ( letta )<strong>
+
+                    </span>
+
+                </div>
+
+              <div class="row-right">
+
+                <span class="readmail-text"> - testo della mail...</span>
+
+              </div>
+
+            </div>
+
+            <div class="row-read">
+
+              <div class="row-left">
+
+                <input type="checkbox">
+
+                <span>&#9733;</span>
+
+                <span class = "readmail-object">
+
+                   <strong>Oggetto della email ( letta )<strong>
+
+                </span>
+
+              </div>
+
+              <div class="row-right">
+
+               <span class="readmail-text"> - testo della mail...</span>
+
+              </div>
+
+           </div>
+
+           <div class="row-unread">
+
+              <div class="row-left">
+
+                 <input type="checkbox">
+
+                <span>&#9733;</span>
+
+                <span class = "unreadmail-object">
+
+                  <strong>Oggetto della email <strong>
+
+                </span>
+
+              </div>
+
+              <div class="row-right">
+
+                <span class="unreadmail-text"> - testo della mail...
+                </span>
+
+              </div>
+
+            </div>
+
+            <div class="row-unread">
+
+                <div class="row-left">
+
+                <input type="checkbox">
+
+                <span>&#9733;</span>
+
+               <span class = "unreadmail-object">
+
+                <strong>Oggetto della email <strong>
+
+               </span>
+
+               </div>
+
+               <div class="row-right">
+
+                  <span class="unreadmail-text"> - testo della mail...
+                  </span>
+
+               </div>
+
+             </div>
+
+             <div class="row-read">
+
+                 <div class="row-left">
+
+                    <input type="checkbox">
+
+                    <span>&#9733;</span>
+
+                    <span class = "readmail-object">
+
+                       <strong>Oggetto della email ( letta )<strong>
+
+                    </span>
+
+                </div>
+
+                <div class="row-right">
+
+                  <span class="readmail-text"> - testo della mail...</span>
+
+                </div>
+
+              </div>
+
+               <div class="row-read">
+
+                  <div class="row-left">
+
+                     <input type="checkbox">
+
+                     <span>&#9733;</span>
+
+                     <span class = "readmail-object">
+
+                        <strong>Oggetto della email ( letta )<strong>
+
+                     </span>
+
+                  </div>
+
+                 <div class="row-right">
+
+                   <span class="readmail-text"> - testo della mail...</span>
+
+                 </div>
+
+              </div>
+
+              <div class="row-unread">
+
+                    <div class="row-left">
+
+                       <input type="checkbox">
+
+                       <span>&#9733;</span>
+
+                       <span class = "unreadmail-object">
+
+                          <strong>Oggetto della email <strong>
+
+                       </span>
+
+                    </div>
+
+                    <div class="row-right">
+
+                       <span class="unreadmail-text"> - testo della mail...
+                       </span>
+
+                    </div>
+
+              </div>
+
+              <div class="row-unread">
+
+                    <div class="row-left">
+
+                          <input type="checkbox">
+
+                          <span>&#9733;</span>
+
+                          <span class = "unreadmail-object">
+
+                            <strong>Oggetto della email <strong>
+
+                          </span>
+
+                   </div>
+
+                   <div class="row-right">
+
+                        <span class="unreadmail-text"> - testo della mail...
+                        </span>
+
+                   </div>
+
+              </div>
+
+
+
+              <hr>
+
+        </section>
+
+
+      </main>
+
+      <!-- sezione piè pagina -->
+
+      <footer>
+
+        <!-- crediti  -->
+
+          <span id="credits">GMAIL</span>
+          <em>powered by
+          <span id="author"> Christian Pucci</span>
+          </em>
+
+
+      </footer>
+
+     </div>
+
+    </div>
+
+    <!-- <div id="container-right"></div> -->
+
+  </body>
+</html>

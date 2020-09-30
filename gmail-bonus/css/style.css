@@ -1,0 +1,244 @@
+/* regole generali */
+
+body {
+  background-image: url("../img/background.png");
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  font-weight:bolder;
+  background-repeat: no-repeat;
+}
+
+#container{
+  width: 100%;
+  height: 900px;
+  position: relative;
+}
+
+#container-right{
+  float:right;
+  width: 600px;
+  height: 600px;
+}
+
+#container-left {
+  float:left;
+  margin-left: 200px;
+  display: inline-block;
+
+}
+#containermiddle{
+  position: absolute;
+  float:right;
+  display: inline-block;
+  margin: auto;
+}
+
+a > img {
+  margin-left: 40px;
+  width: 50px;
+}
+
+a > img:hover {
+  opacity: 0.6;
+}
+
+
+/* inizio comandi menu verticale */
+
+.vertical-menu > a {
+  display: block;
+  margin-left: 50px;
+  padding: 5px;
+  color:black;
+  height: 23px;
+}
+
+.vertical-menu > span{
+  float:left;
+  margin-left:30px;
+  padding:5px;
+  height: 23px;
+}
+
+.vertical-menu > a:hover {
+ background: white;
+ opacity:0.2;
+ border-radius: 15px;
+ border: 2px solid;
+}
+
+.vertical-menu {
+  width: 300px;
+  height: 500px;
+  margin-top: 260px;
+}
+
+/* fine comandi menu verticale */
+
+/* comandi icone header  */
+
+
+.mail-link {
+  display: inline-block;
+  margin-left: 40px;
+  width: 50px;
+}
+
+.mail-spam {
+  display: inline-block;
+width: 50px;
+margin-left: 40px;
+}
+
+.mail-trash{
+display: inline-block;
+width: 50px;
+margin-left: 40px;
+}
+
+#firsticon {
+  margin-left:40px;
+  color:black;
+}
+
+#secondicon {
+  margin-left: 40px;
+  color: black;
+}
+
+#thirdicon {
+ margin-left: 40px;
+ color:black;
+
+}
+
+/* fine comandi icone header  */
+
+/* contenitore blocco di pagina */
+
+#searchbutton {
+  display: inline-block;
+
+}
+
+#submit {
+ float:right;
+}
+
+#optionbutton{
+  display: inline-block;
+  float:right
+}
+
+
+
+#containermiddle {
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* inizio comandi header  */
+
+#logo {
+  display: inline-block;
+  width: 150px;
+
+}
+
+#testologo {
+  display: inline-block;
+  font-size: 40px;
+  color: white;
+  -webkit-text-stroke: 0.1px black;
+}
+
+/* fine comandi header */
+
+/* comandi ricerca mail */
+
+#unreadbox {
+  background-color:orange;
+  border-radius: 50%;
+  padding: 1%;
+  color: white;
+}
+
+#unreadbox:hover{
+  opacity: 0.6;
+}
+
+/* fine comandi ricerca mail */
+
+/* inizio comandi lista mail */
+
+.row-read {
+  background: lightgrey;
+  height: 20px;
+  border: 3px solid black;
+  opacity: 1;
+}
+
+.row-read:hover{
+  opacity: 0.6;
+}
+
+.row-unread {
+  background: grey;
+  height: 20px;
+  border: 3px solid black;
+  opacity: 1;
+}
+
+.row-unread:hover{
+  opacity: 0.6;
+}
+
+.unreadmail-object{
+  color:black;
+}
+.unreadmail-text{
+  color:black;
+}
+
+.readmail-object {
+  color:grey;
+}
+
+.readmail-text {
+  color:grey;
+}
+
+.row-left {
+   display:inline-block;
+   width: 30%;
+   color:black;
+}
+
+
+
+.row-right {
+  display:inline-block;
+  width: 69%;
+  color:black;
+}
+
+/* fine comandi lista mail  */
+
+/* inizio comandi footer  */
+
+
+#credits {
+  font-size: 40px;
+}
+
+#author {
+  font-size: 30px;
+}
+
+footer {
+  text-align: center;
+  color:white;
+  -webkit-text-stroke: 0.1px black;
+}
+
+/* fine comandi footer  */
